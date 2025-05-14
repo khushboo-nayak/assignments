@@ -13,9 +13,10 @@ Day 3:
  (iii)  wrote a function to fetch blocks by matching block number which calls the fetch all blocks function and then finds the matching block; returns not found if no block number matches  
   (iv) cleaned the code, removed unneccesary variables, functions and split the code into 4 parts - main, block, fileledger, leveldb each with functions corresponding to the file name(self explanatory)  
 
-  References: 1. https://medium.com/golangspec/in-depth-introduction-to-bufio-scanner-in-golang-55483bb689b4  
-              2. https://www.slingacademy.com/article/using-sha-256-for-hashing-in-go-a-practical-guide/  
-              3. https://rb.gy/3mju19  
-              4. https://github.com/syndtr/goleveldb  
-              5. https://medium.com/@ahamrouni/mastering-file-handling-in-go-build-a-todo-app-with-text-json-and-log-files-ec7814b2df4b  
+  References:  
+  1. https://medium.com/golangspec/in-depth-introduction-to-bufio-scanner-in-golang-55483bb689b4  
+  2. https://www.slingacademy.com/article/using-sha-256-for-hashing-in-go-a-practical-guide/  
+  3. https://rb.gy/3mju19  
+  4. https://github.com/syndtr/goleveldb  
+  5. https://medium.com/@ahamrouni/mastering-file-handling-in-go-build-a-todo-app-with-text-json-and-log-files-ec7814b2df4b  
               
