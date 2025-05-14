@@ -1,6 +1,7 @@
 ## Assignments
 # Task 1
-Day 1: Preliminary Blockchain constructed, however ran infinetely without giving any errors. Problems with go routines and channels detected. Structs not defined properly and comparision was happening with a nil pointer initially. (given in assignment.go file)  
+Day 1:  
+Preliminary Blockchain constructed, however ran infinetely without giving any errors. Problems with go routines and channels detected. Structs not defined properly and comparision was happening with a nil pointer initially. (given in assignment.go file)  
 
 Day 2:  
   (i) Refined structs, made new structs  
