@@ -6,11 +6,11 @@ Preliminary Blockchain constructed, however ran infinetely without giving any er
 Day 2:  
   (i) Refined structs, made new structs  
  (ii) made a function to set up leveldb and also added file handling condition where the leveldb was already populated.  
-(iii) Made a comprehensive function to process (validate + hash) all transactions concurrently
+(iii) Made a comprehensive function to process (validate + hash) all transactions concurrently  
  (iv) Made a function to commit valid transactions in batches (leveldb.batch)
  
 Day 3:   
-  (i) The for loop for processing and commiting transactions made with a configurable number of transactions and a channel made to recieve commited blocks  
+  (i) The for loop for processing and commiting transactions made with a configurable number of transactions, channel made to recieve commited blocks and hashing for each block  
  (ii) function made to recieve blocks from the channel and write it to a file  
 (iii) wrote a function to fetch all blocks from file using os, scanner and finally unmarshal it to display  
  (iv)  wrote a function to fetch blocks by matching block number which calls the fetch all blocks function & finds the matching block; returns not found if no match  
